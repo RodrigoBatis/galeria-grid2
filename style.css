@@ -7,6 +7,7 @@
 body{
     width: 100vw;
     height: 100vh;
+    overflow-x: hidden;
     background: rgb(0,0,0);
     background: linear-gradient(90deg, rgba(0,0,0,1) 21%, rgba(0,0,0,0.9864320728291317) 64%, rgba(123,123,123,1) 95%);
     color: white;
@@ -66,7 +67,7 @@ img{
 
 
 footer{
-    font-size: 50px;
+    font-size: 30px;
     height: 600px;
     display: flex;
     justify-content: center;
